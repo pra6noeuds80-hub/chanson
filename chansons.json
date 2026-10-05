@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Titre de ma chanson (audio)",
+    "genre": "Folk",
+    "audio": "chansons/ma-chanson.mp3",
+    "lyrics": "Écrivez ici vos paroles,\nune ligne après l’autre."
+  },
+  {
+    "title": "la prière de nos pied (vidéo)",
+    "genre": "Ballade",
+    "audio": "chansons/mon-clip.mp4",
+    "lyrics": "Paroles de la chanson du clip."
+  }
+]
