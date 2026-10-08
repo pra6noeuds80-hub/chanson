@@ -1,0 +1,329 @@
+# ==========================================================
+#  MES CHANSONS ET MES PAGES  (fichier à modifier avec un simple éditeur de texte)
+# ==========================================================
+#  - Les lignes qui commencent par # sont ignorées (ce sont des notes).
+#  - Chaque chanson commence par la ligne :   === chanson
+#  - Chaque page de texte commence par :       === page
+#  - Pour AJOUTER une chanson : copiez un bloc complet « === chanson » (jusqu'à la
+#    chanson suivante), collez-le en dessous, changez le titre, le fichier et les paroles.
+#  - Le fichier son (mp4 ou mp3) se met dans le même dossier que index.html.
+#  - « ou: » (facultatif) donne d'autres noms possibles pour le fichier, séparés par |
+#  - « synchro: » (facultatif) sert au surlignage des paroles ; sans lui, le texte s'affiche sans surlignage.
+#
+#  Exemple de page de texte (retirez les # pour l'utiliser) :
+#  === page
+#  titre: À propos
+#  texte:
+#  Écrivez ici votre texte.
+#
+#  Une ligne vide sépare deux paragraphes.
+# ==========================================================
+
+=== chanson
+titre: La prière de nos pieds
+fichier: priere.mp4
+ou: la_pri_re_de_nos_pieds.mp4 | la_priere_de_nos_pieds.mp4 | la_prière_de_nos_pieds.mp4 | La prière de nos pieds.mp4
+style: Andean Folk Fusion
+date: 27 septembre 2026
+synchro: 9.6-14.4 14.4-19.2 19.2-24 24-28.8 28.8-33.6 33.6-38.4 38.4-43.2 43.2-48 48-52.8 52.8-57.6 57.6-62.4 62.4-67.2 67.2-72 72-76.8 76.8-81.6 81.6-86.4 86.4-91.2 91.2-96 96-100.8 100.8-105.6 105.6-110.4 110.4-115.2 115.2-120 120-124.8 124.8-129.6 129.6-134.4
+paroles:
+Les pieds nus dans la terre rouge du Pérou,
+Chaque pas une graine plantée pour demain,
+Le chant chamanique roule comme le tonnerre,
+Et la Sainte Vierge bénit les récoltes.
+
+Danse, danse, terre mère,
+Fais lever le maïs et la lumière,
+Danse, danse, terre mère,
+Nos pieds sont ta prière.
+
+Les femmes tissent des chants dans leurs paniers,
+Les hommes battent le sol du talon nu,
+Le ciel répond par un éclair joyeux,
+Et la pluie vient danser avec nous.
+
+Danse, danse, terre mère,
+Fais lever le maïs et la lumière,
+Danse, danse, terre mère,
+Nos pieds sont ta prière.
+
+Tout ce qui pousse a d'abord été semé dans la joie,
+Tout ce qui vit a d'abord été dansé.
+
+Danse, danse, terre mère,
+Fais lever le maïs et la lumière,
+Danse, danse, terre mère,
+Nos pieds sont ta prière.
+
+Danse, danse, terre mère,
+Fais lever le maïs et la lumière,
+Danse, danse, terre mère,
+Nos pieds sont ta prière.
+
+
+=== chanson
+titre: Le roi sans nom
+fichier: roi.mp4
+ou: le_roi_sans_nom.mp4 | Le roi sans nom.mp4
+style: Chamber Folk
+date: 24 septembre 2026
+synchro: 12.8-17.07 17.07-21.33 21.33-25.6 25.6-29.87 29.87-34.13 34.13-38.4 38.4-41.6 41.6-44.8 44.8-48 48-51.2 51.2-55.47 55.47-59.73 59.73-64 64-68.27 68.27-72.53 72.53-76.8 76.8-80 80-83.2 83.2-86.4 86.4-89.6 115.2-119.47 119.47-123.73 123.73-128 128-132.27 132.27-136.53 136.53-140.8 140.8-144 144-147.2 147.2-150.4 150.4-153.6 153.6-166.4
+paroles:
+Tracé de craie sur le papier jauni
+L'esprit de la nature bat en secret
+Dans le contour d'un cheval infini
+Le cœur s'abreuve à la sainte source
+Des cœurs d'argent logés au fond de lui
+Une lune veille sur sa course
+
+Entends l'écho de la terre qui appelle
+Où le divin porte plusieurs visages
+Le tout s'élève en une seule aile
+Un sanctuaire sans aucun rivage
+
+Lignes fluides qui s'enroulent au vent
+Comme un baiser scellé sur la pierre
+Deux êtres s'unissent pour le temps
+Une étreinte de pure lumière
+Tendresse muette sous le grand blanc
+Protège l'étincelle de la terre
+
+Entends l'écho de la terre qui appelle
+Où le divin porte plusieurs visages
+Le tout s'élève en une seule aile
+Un sanctuaire sans aucun rivage
+
+Le roi sans nom porte sa couronne
+Des oiseaux de proie et une croix pure
+Dans son regard où le mystère résonne
+Un œil ouvert qui voit au-delà du visible
+De toutes les croyances qu'on nous donne
+Il garde la vision la plus paisible
+
+Entends l'écho de la terre qui appelle
+Où le divin porte plusieurs visages
+Le tout s'élève en une seule aile
+Un sanctuaire sans aucun rivage
+
+(Respecter le tout...)
+
+
+=== chanson
+titre: Champs de thé
+fichier: champs-de-the.mp4
+ou: champs_de_th__1_.mp4 | champs_de_the.mp4 | champs_de_thé.mp4 | champs_de_thé (1).mp4 | Champs de thé.mp4
+style: Contemporary Folk / Chanson Française
+date: 6 octobre 2026
+note: L’écoute est la seule façon de l’écrire, le chant des oiseaux est ici employé.
+synchro: 0-4 4-8 8-12 12-15.5 15.5-19 19-22.5 22.5-27.5 27.5-31 31-34.5 34.5-38 38-41.5 41.5-48 48-51.5 51.5-55 55-58.5 58.5-63.5 75.5-79 79-82.5 82.5-86 86-92.5 92.5-96 96-99.5 99.5-103 103-110 110-113.5 113.5-117 117-120.5 120.5-124 124-127.5 127.5-131 131-134.5 134.5-139.5
+paroles:
+(Regarde la mer)
+(Écoute le vent du nord)
+(On y va)
+
+Tu as mis l'air sans misère,
+Pitoreste, non, à l'Ouest,
+Sur la terre, haut mon père,
+Pi du taure, vache à lait.
+
+Art ose en mets, arose en mai,
+Douce mère étoilée, et toile est,
+Nom de mer, étoile salée,
+Ô douce Marie, prie pour nous,
+Maintenant, mains tenant, à genou.
+
+Père et frère, sœur de cœur,
+Fleur de rose, sors ta prose,
+Envoie ta prière, prie l'air, respire,
+Vois défiler les filets, laisse-les se dire.
+
+Positive sous ton ère sans tonnerre,
+Centenaire heureux, défilons les heures,
+Ébahi par l'actrice de la matrice
+Qui se déploie sous tes yeux, tes jours heureux.
+
+Père et frère, sœur de cœur,
+Fleur de rose, sors ta prose,
+Envoie ta prière, prie l'air, respire,
+Vois défiler les filets, laisse-les se dire.
+
+Hé, lève, mon élève, de tes rêves les doux fruits d'Ève,
+Pense à chanter la vie,
+Champs de thé au doux lacté,
+Émerveille les papilles, les pupilles.
+
+(Émerveille les yeux)
+(Pense à chanter)
+(Toujours la vie)
+(Chante)
+
+
+=== chanson
+titre: Le fil de leur mémoire
+fichier: fil.mp4
+ou: le_fil_de_leur_m_moire.mp4 | le_fil_de_leur_memoire.mp4 | le_fil_de_leur_mémoire.mp4 | Le fil de leur mémoire.mp4
+style: Nueva Canción
+date: 27 septembre 2026
+synchro: 0-5.65 5.65-11.3 11.3-16.95 16.95-22.6 22.6-28.25 28.25-33.9 33.9-39.55 39.55-45.2 45.2-50.85 50.85-56.5 56.5-62.14 62.14-67.78 67.78-73.41 73.41-79.05 79.05-84.69 84.69-90.33 90.33-95.96 95.96-101.6 124.2-127.03 127.03-129.85 129.85-132.68 132.68-135.5 135.5-138.32 138.32-141.15 141.15-143.97 143.97-146.8 146.8-149.62 149.62-152.45 152.45-155.28 155.28-158.1 158.1-160.93 160.93-163.75 163.75-166.57 166.57-169.4 169.4-172.05 172.05-174.7 174.7-177.35 177.35-180
+paroles:
+(Sacha...)
+(Abuelos...)
+
+Les pierres gardent les secrets anciens
+Dans la terre où dorment les abuelos
+Leurs pas résonnent encore en chemin
+L'écho de leurs chants sous l'or d'Hélios
+
+Je marche sur la poussière des étoiles
+Guidé par le fil de leur mémoire
+Leurs cœurs étaient de solides voiles
+Naviguant sur l'océan de l'histoire
+
+Chantons pour eux tous les ancêtres
+Chantons la vie qui renaît sans cesse
+Leur sang coule encore dans nos êtres
+Héritage sacré et de tendresse
+
+Nous sommes les fruits de leurs batailles
+Gardiens du feu qu'ils ont allumé
+De nos racines ils font l'entaille
+Pour que l'amour ne soit pas consumé
+
+Dans le vent qui souffle du sommet
+J'entends la voix des pères lointains
+Leur esprit ne meurt jamais vraiment
+Il guide nos pas sur les chemins
+
+Pachamama garde leur mémoire sainte
+Dans le creux de ses vallons sacrés
+Nous marchons fiers et sans nulle crainte
+Bénis par ceux qui nous ont précédés
+
+Chantons pour eux tous les ancêtres
+Chantons la vie qui renaît sans cesse
+Leur sang coule encore dans nos êtres
+Héritage sacré et de tendresse
+
+Nous sommes les fruits de leurs batailles
+Gardiens du feu qu'ils ont allumé
+De nos racines ils font l'entaille
+Pour que l'amour ne soit pas consumé
+
+À jamais dans notre sang...
+Pachamama...
+(Ooh...)
+Merci...
+
+
+=== chanson
+titre: Le miroir du soir
+fichier: miroir.mp4
+ou: le_miroir_du_soir.mp4 | Le miroir du soir.mp4
+style: Modern Neofolk
+date: 8 octobre 2026
+synchro: 12-16 16-20 20-24 24-28 28-32 32-36 36-40 40-44 44-48 48-52 52-56 56-60 60-64 64-68 68-72 72-76 76-80 80-84 84-88 88-92 108-112 112-116 116-120 120-124 124-128 128-132 132-136 136-140 140-144 144-148 148-152 152-156 156-162 162-168
+paroles:
+Dans la pierre dort l'épée,
+Cent rois l'ont en vain tentée,
+Seul l'enfant qui s'est cherché
+Peut enfin la libérer.
+
+Lame, lame, l'âme est ta sœur,
+L'une est d'acier, l'autre est lueur,
+Tiens la lame, connais ton âme,
+Ou tu ne tiens qu'un froid sans flamme.
+
+Merlin murmure dans la nuit :
+« Laisse au seuil l'homme que tu fus. »
+Le lac s'ouvre, la brume suit,
+Une main d'eau, Excalibur.
+
+Lame, lame, l'âme est ta sœur,
+L'une est d'acier, l'autre est lueur,
+Tiens la lame, connais ton âme,
+Ou tu ne tiens qu'un froid sans flamme.
+
+La peur, le doute, le miroir,
+Trois portes pour passer le soir.
+Qui n'a plus peur de son ombre
+Voit la lumière, même sombre.
+
+À Camlann tombe le jour,
+La lame est lasse, l'âme aussi.
+Arthur la rend au lac d'oubli,
+Car ce qu'on rend nous est rendu.
+
+Lame, lame, l'âme est ta sœur,
+L'une est d'acier, l'autre est lueur,
+Tiens la lame, connais ton âme,
+Ou tu ne tiens qu'un froid sans flamme.
+
+Lame, lame, l'âme est ta sœur,
+L'une est d'acier, l'autre est lueur,
+Tiens la lame, connais ton âme,
+Ou tu ne tiens qu'un froid sans flamme.
+
+L'âme est la lame, la lame est l'âme,
+Ce qu'on rend à l'eau devient flamme.
+
+
+=== chanson
+titre: Le miroir, mi-roi
+fichier: miroir-mi-roi.mp4
+ou: le_miroir_mi-roi.mp4 | le_miroir_mi_roi.mp4 | Le miroir, mi-roi.mp4
+style: Neoclassical Dark Folk
+date: 8 octobre 2026
+synchro: 10.3-13.72 13.72-17.15 17.15-20.57 20.57-24 24-27.43 27.43-30.85 30.85-34.27 34.27-37.7 37.7-41.12 41.12-44.55 44.55-47.98 47.98-51.4 51.4-54.83 54.83-58.25 58.25-61.67 61.67-65.1 65.1-68.55 68.55-72 72-75.45 75.45-78.9 78.9-82.33 82.33-85.75 85.75-89.17 89.17-92.6 92.6-96.03 96.03-99.45 99.45-102.88 102.88-106.3 106.3-109.72 109.72-113.15 113.15-116.58 116.58-120 120-123.42 123.42-126.85 126.85-130.28 130.28-133.7 133.7-137.12 137.12-140.55 140.55-143.97 143.97-147.4 147.4-156.2 156.2-165
+paroles:
+Blanche-Neige, blanc chez n'est-je,
+Le je qui fond sous le regard,
+É-bène, es-bien : la nuit dit « bien »,
+Le sang, le sens, le fil du soir.
+
+Dors, Blanche, d'or, dans le verre, le vers,
+La mort n'est qu'un mors, un frein qui cède,
+Ce qui dort sous la cendre, sans dre,
+S'éveille : s'est vais, c'est veille, c'est le remède.
+
+La Reine, la rêne, tient le cheval,
+Le miroir, mi-roi, mire oit :
+Elle regarde dehors son mal,
+Et prend l'autre pour elle, pour soi.
+
+Le chasseur, chasse-heure, chasse le temps,
+Il lève la lame, l'âme hésite :
+Le cœur ne peut pas, un instant,
+Tuer ce que le for abrite.
+
+Dors, Blanche, d'or, dans le verre, le vers,
+La mort n'est qu'un mors, un frein qui cède,
+Ce qui dort sous la cendre, sans dre,
+S'éveille : s'est vais, c'est veille, c'est le remède.
+
+Sept nains, sait nain, s'est nid dans la terre,
+Le nain, c'est le n'ain, le petit germe,
+Sept mines, sept mi-nuits, sept lumières,
+Mine d'or : l'or est dans l'homme, au fond du ferme.
+
+La pomme, paume, pause tendue,
+Pomme, pas m'aime : on ne s'aime pas encore,
+Mordre, mort-dre : la mort à vivre, vue,
+Pour naître au monde, n'être mort.
+
+Le cercueil, cercle œil, œil rond,
+L'athanor, à ta nord, tourné vers la nuit,
+Le temps le garde, le noir y fond,
+Blanc : le blanc devient bel an : renaît.
+
+Dors, Blanche, d'or, dans le verre, le vers,
+La mort n'est qu'un mors, un frein qui cède,
+Ce qui dort sous la cendre, sans dre,
+S'éveille : s'est vais, c'est veille, c'est le remède.
+
+Dors, Blanche, d'or, dans le verre, le vers,
+La mort n'est qu'un mors, un frein qui cède,
+Ce qui dort sous la cendre, sans dre,
+S'éveille : s'est vais, c'est veille, c'est le remède.
+
+Le prince, prends ce, pris sens, c'est toi :
+Le baiser, baisser le masque, et voir.
