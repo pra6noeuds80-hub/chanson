@@ -1,0 +1,769 @@
+# ==========================================================
+#  MES CHANSONS ET MES PAGES  (fichier à modifier avec un simple éditeur de texte)
+# ==========================================================
+#  - Les lignes qui commencent par # sont ignorées (ce sont des notes).
+#  - Chaque chanson commence par la ligne :   === chanson
+#  - Chaque page de texte commence par :       === page
+#  - Pour AJOUTER une chanson : copiez un bloc complet « === chanson » (jusqu'à la
+#    chanson suivante), collez-le en dessous, changez le titre, le fichier et les paroles.
+#  - Le fichier son (mp4 ou mp3) se met dans le même dossier que index.html.
+#  - « ou: » (facultatif) donne d'autres noms possibles pour le fichier, séparés par |
+#  - « synchro: » (facultatif) sert au surlignage des paroles ; sans lui, le texte s'affiche sans surlignage.
+#
+#  Exemple de page de texte (retirez les # pour l'utiliser) :
+#  === page
+#  titre: À propos
+#  texte:
+#  Écrivez ici votre texte.
+#
+#  Une ligne vide sépare deux paragraphes.
+# ==========================================================
+
+=== chanson
+titre: La prière de nos pieds
+fichier: priere.mp4
+ou: la_pri_re_de_nos_pieds.mp4 | la_priere_de_nos_pieds.mp4 | la_prière_de_nos_pieds.mp4 | La prière de nos pieds.mp4
+style: Andean Folk Fusion
+date: 27 septembre 2026
+synchro: 9.6-14.4 14.4-19.2 19.2-24 24-28.8 28.8-33.6 33.6-38.4 38.4-43.2 43.2-48 48-52.8 52.8-57.6 57.6-62.4 62.4-67.2 67.2-72 72-76.8 76.8-81.6 81.6-86.4 86.4-91.2 91.2-96 96-100.8 100.8-105.6 105.6-110.4 110.4-115.2 115.2-120 120-124.8 124.8-129.6 129.6-134.4
+paroles:
+Les pieds nus dans la terre rouge du Pérou,
+Chaque pas une graine plantée pour demain,
+Le chant chamanique roule comme le tonnerre,
+Et la Sainte Vierge bénit les récoltes.
+
+Danse, danse, terre mère,
+Fais lever le maïs et la lumière,
+Danse, danse, terre mère,
+Nos pieds sont ta prière.
+
+Les femmes tissent des chants dans leurs paniers,
+Les hommes battent le sol du talon nu,
+Le ciel répond par un éclair joyeux,
+Et la pluie vient danser avec nous.
+
+Danse, danse, terre mère,
+Fais lever le maïs et la lumière,
+Danse, danse, terre mère,
+Nos pieds sont ta prière.
+
+Tout ce qui pousse a d'abord été semé dans la joie,
+Tout ce qui vit a d'abord été dansé.
+
+Danse, danse, terre mère,
+Fais lever le maïs et la lumière,
+Danse, danse, terre mère,
+Nos pieds sont ta prière.
+
+Danse, danse, terre mère,
+Fais lever le maïs et la lumière,
+Danse, danse, terre mère,
+Nos pieds sont ta prière.
+
+
+=== chanson
+titre: Le roi sans nom
+fichier: roi.mp4
+ou: le_roi_sans_nom.mp4 | Le roi sans nom.mp4
+style: Chamber Folk
+date: 24 septembre 2026
+synchro: 12.8-17.07 17.07-21.33 21.33-25.6 25.6-29.87 29.87-34.13 34.13-38.4 38.4-41.6 41.6-44.8 44.8-48 48-51.2 51.2-55.47 55.47-59.73 59.73-64 64-68.27 68.27-72.53 72.53-76.8 76.8-80 80-83.2 83.2-86.4 86.4-89.6 115.2-119.47 119.47-123.73 123.73-128 128-132.27 132.27-136.53 136.53-140.8 140.8-144 144-147.2 147.2-150.4 150.4-153.6 153.6-166.4
+paroles:
+Tracé de craie sur le papier jauni
+L'esprit de la nature bat en secret
+Dans le contour d'un cheval infini
+Le cœur s'abreuve à la sainte source
+Des cœurs d'argent logés au fond de lui
+Une lune veille sur sa course
+
+Entends l'écho de la terre qui appelle
+Où le divin porte plusieurs visages
+Le tout s'élève en une seule aile
+Un sanctuaire sans aucun rivage
+
+Lignes fluides qui s'enroulent au vent
+Comme un baiser scellé sur la pierre
+Deux êtres s'unissent pour le temps
+Une étreinte de pure lumière
+Tendresse muette sous le grand blanc
+Protège l'étincelle de la terre
+
+Entends l'écho de la terre qui appelle
+Où le divin porte plusieurs visages
+Le tout s'élève en une seule aile
+Un sanctuaire sans aucun rivage
+
+Le roi sans nom porte sa couronne
+Des oiseaux de proie et une croix pure
+Dans son regard où le mystère résonne
+Un œil ouvert qui voit au-delà du visible
+De toutes les croyances qu'on nous donne
+Il garde la vision la plus paisible
+
+Entends l'écho de la terre qui appelle
+Où le divin porte plusieurs visages
+Le tout s'élève en une seule aile
+Un sanctuaire sans aucun rivage
+
+(Respecter le tout...)
+
+
+=== chanson
+titre: Champs de thé
+fichier: champs-de-the.mp4
+ou: champs_de_th__1_.mp4 | champs_de_the.mp4 | champs_de_thé.mp4 | champs_de_thé (1).mp4 | Champs de thé.mp4
+style: Contemporary Folk / Chanson Française
+date: 6 octobre 2026
+note: L’écoute est la seule façon de l’écrire, le chant des oiseaux est ici employé.
+synchro: 0-4 4-8 8-12 12-15.5 15.5-19 19-22.5 22.5-27.5 27.5-31 31-34.5 34.5-38 38-41.5 41.5-48 48-51.5 51.5-55 55-58.5 58.5-63.5 75.5-79 79-82.5 82.5-86 86-92.5 92.5-96 96-99.5 99.5-103 103-110 110-113.5 113.5-117 117-120.5 120.5-124 124-127.5 127.5-131 131-134.5 134.5-139.5
+paroles:
+(Regarde la mer)
+(Écoute le vent du nord)
+(On y va)
+
+Tu as mis l'air sans misère,
+Pitoreste, non, à l'Ouest,
+Sur la terre, haut mon père,
+Pi du taure, vache à lait.
+
+Art ose en mets, arose en mai,
+Douce mère étoilée, et toile est,
+Nom de mer, étoile salée,
+Ô douce Marie, prie pour nous,
+Maintenant, mains tenant, à genou.
+
+Père et frère, sœur de cœur,
+Fleur de rose, sors ta prose,
+Envoie ta prière, prie l'air, respire,
+Vois défiler les filets, laisse-les se dire.
+
+Positive sous ton ère sans tonnerre,
+Centenaire heureux, défilons les heures,
+Ébahi par l'actrice de la matrice
+Qui se déploie sous tes yeux, tes jours heureux.
+
+Père et frère, sœur de cœur,
+Fleur de rose, sors ta prose,
+Envoie ta prière, prie l'air, respire,
+Vois défiler les filets, laisse-les se dire.
+
+Hé, lève, mon élève, de tes rêves les doux fruits d'Ève,
+Pense à chanter la vie,
+Champs de thé au doux lacté,
+Émerveille les papilles, les pupilles.
+
+(Émerveille les yeux)
+(Pense à chanter)
+(Toujours la vie)
+(Chante)
+
+
+=== chanson
+titre: Le fil de leur mémoire
+fichier: fil.mp4
+ou: le_fil_de_leur_m_moire.mp4 | le_fil_de_leur_memoire.mp4 | le_fil_de_leur_mémoire.mp4 | Le fil de leur mémoire.mp4
+style: Nueva Canción
+date: 27 septembre 2026
+paroles:
+(Sacha...)
+(Abuelos...)
+
+Les pierres gardent les secrets anciens
+Dans la terre où dorment les abuelos
+Leurs pas résonnent encore en chemin
+L'écho de leurs chants sous l'or d'Hélios
+
+Je marche sur la poussière des étoiles
+Guidé par le fil de leur mémoire
+Leurs cœurs étaient de solides voiles
+Naviguant sur l'océan de l'histoire
+
+Chantons pour eux tous les ancêtres
+Chantons la vie qui renaît sans cesse
+Leur sang coule encore dans nos êtres
+Héritage sacré et de tendresse
+
+Nous sommes les fruits de leurs batailles
+Gardiens du feu qu'ils ont allumé
+De nos racines ils font l'entaille
+Pour que l'amour ne soit pas consumé
+
+Dans le vent qui souffle du sommet
+J'entends la voix des pères lointains
+Leur esprit ne meurt jamais vraiment
+Il guide nos pas sur les chemins
+
+Pachamama garde leur mémoire sainte
+Dans le creux de ses vallons sacrés
+Nous marchons fiers et sans nulle crainte
+Bénis par ceux qui nous ont précédés
+
+Chantons pour eux tous les ancêtres
+Chantons la vie qui renaît sans cesse
+Leur sang coule encore dans nos êtres
+Héritage sacré et de tendresse
+
+Nous sommes les fruits de leurs batailles
+Gardiens du feu qu'ils ont allumé
+De nos racines ils font l'entaille
+Pour que l'amour ne soit pas consumé
+
+À jamais dans notre sang...
+Pachamama...
+(Ooh...)
+Merci...
+
+
+=== chanson
+titre: Le miroir du soir
+fichier: miroir.mp4
+ou: le_miroir_du_soir.mp4 | Le miroir du soir.mp4
+style: Modern Neofolk
+date: 8 octobre 2026
+synchro: 12-16 16-20 20-24 24-28 28-32 32-36 36-40 40-44 44-48 48-52 52-56 56-60 60-64 64-68 68-72 72-76 76-80 80-84 84-88 88-92 108-112 112-116 116-120 120-124 124-128 128-132 132-136 136-140 140-144 144-148 148-152 152-156 156-162 162-168
+paroles:
+Dans la pierre dort l'épée,
+Cent rois l'ont en vain tentée,
+Seul l'enfant qui s'est cherché
+Peut enfin la libérer.
+
+Lame, lame, l'âme est ta sœur,
+L'une est d'acier, l'autre est lueur,
+Tiens la lame, connais ton âme,
+Ou tu ne tiens qu'un froid sans flamme.
+
+Merlin murmure dans la nuit :
+« Laisse au seuil l'homme que tu fus. »
+Le lac s'ouvre, la brume suit,
+Une main d'eau, Excalibur.
+
+Lame, lame, l'âme est ta sœur,
+L'une est d'acier, l'autre est lueur,
+Tiens la lame, connais ton âme,
+Ou tu ne tiens qu'un froid sans flamme.
+
+La peur, le doute, le miroir,
+Trois portes pour passer le soir.
+Qui n'a plus peur de son ombre
+Voit la lumière, même sombre.
+
+À Camlann tombe le jour,
+La lame est lasse, l'âme aussi.
+Arthur la rend au lac d'oubli,
+Car ce qu'on rend nous est rendu.
+
+Lame, lame, l'âme est ta sœur,
+L'une est d'acier, l'autre est lueur,
+Tiens la lame, connais ton âme,
+Ou tu ne tiens qu'un froid sans flamme.
+
+Lame, lame, l'âme est ta sœur,
+L'une est d'acier, l'autre est lueur,
+Tiens la lame, connais ton âme,
+Ou tu ne tiens qu'un froid sans flamme.
+
+L'âme est la lame, la lame est l'âme,
+Ce qu'on rend à l'eau devient flamme.
+
+
+=== chanson
+titre: Le miroir, mi-roi
+fichier: miroir-mi-roi.mp4
+ou: le_miroir_mi-roi.mp4 | le_miroir_mi_roi.mp4 | Le miroir, mi-roi.mp4
+style: Neoclassical Dark Folk
+date: 8 octobre 2026
+synchro: 10.3-13.72 13.72-17.15 17.15-20.57 20.57-24 24-27.43 27.43-30.85 30.85-34.27 34.27-37.7 37.7-41.12 41.12-44.55 44.55-47.98 47.98-51.4 51.4-54.83 54.83-58.25 58.25-61.67 61.67-65.1 65.1-68.55 68.55-72 72-75.45 75.45-78.9 78.9-82.33 82.33-85.75 85.75-89.17 89.17-92.6 92.6-96.03 96.03-99.45 99.45-102.88 102.88-106.3 106.3-109.72 109.72-113.15 113.15-116.58 116.58-120 120-123.42 123.42-126.85 126.85-130.28 130.28-133.7 133.7-137.12 137.12-140.55 140.55-143.97 143.97-147.4 147.4-156.2 156.2-165
+paroles:
+Blanche-Neige, blanc chez n'est-je,
+Le je qui fond sous le regard,
+É-bène, es-bien : la nuit dit « bien »,
+Le sang, le sens, le fil du soir.
+
+Dors, Blanche, d'or, dans le verre, le vers,
+La mort n'est qu'un mors, un frein qui cède,
+Ce qui dort sous la cendre, sans dre,
+S'éveille : s'est vais, c'est veille, c'est le remède.
+
+La Reine, la rêne, tient le cheval,
+Le miroir, mi-roi, mire oit :
+Elle regarde dehors son mal,
+Et prend l'autre pour elle, pour soi.
+
+Le chasseur, chasse-heure, chasse le temps,
+Il lève la lame, l'âme hésite :
+Le cœur ne peut pas, un instant,
+Tuer ce que le for abrite.
+
+Dors, Blanche, d'or, dans le verre, le vers,
+La mort n'est qu'un mors, un frein qui cède,
+Ce qui dort sous la cendre, sans dre,
+S'éveille : s'est vais, c'est veille, c'est le remède.
+
+Sept nains, sait nain, s'est nid dans la terre,
+Le nain, c'est le n'ain, le petit germe,
+Sept mines, sept mi-nuits, sept lumières,
+Mine d'or : l'or est dans l'homme, au fond du ferme.
+
+La pomme, paume, pause tendue,
+Pomme, pas m'aime : on ne s'aime pas encore,
+Mordre, mort-dre : la mort à vivre, vue,
+Pour naître au monde, n'être mort.
+
+Le cercueil, cercle œil, œil rond,
+L'athanor, à ta nord, tourné vers la nuit,
+Le temps le garde, le noir y fond,
+Blanc : le blanc devient bel an : renaît.
+
+Dors, Blanche, d'or, dans le verre, le vers,
+La mort n'est qu'un mors, un frein qui cède,
+Ce qui dort sous la cendre, sans dre,
+S'éveille : s'est vais, c'est veille, c'est le remède.
+
+Dors, Blanche, d'or, dans le verre, le vers,
+La mort n'est qu'un mors, un frein qui cède,
+Ce qui dort sous la cendre, sans dre,
+S'éveille : s'est vais, c'est veille, c'est le remède.
+
+Le prince, prends ce, pris sens, c'est toi :
+Le baiser, baisser le masque, et voir.
+
+
+=== chanson
+titre: Au fond du miroir
+fichier: au-fond-du-miroir.mp4
+ou: au_fond_du_miroir.mp4 | Au fond du miroir.mp4
+style: Dark Cabaret
+date: 8 octobre 2026
+synchro: 12.7-15.5 15.5-18.4 18.4-21.2 21.2-24 24-26.8 26.8-29.6 29.6-32.5 32.5-35.3 35.3-38.1 38.1-40.9 40.9-43.8 43.8-46.6 46.6-49.4 49.4-52.2 52.2-55.1 55.1-57.9 57.9-60.7 60.7-63.5 63.5-66.3 66.3-69.2 69.2-72 72-74.8 74.8-77.7 77.7-80.5 80.5-83.3 83.3-86.1 86.1-88.9 88.9-91.8 91.8-94.6 94.6-97.4 97.4-100.2 100.2-103.1 103.1-105.9 105.9-112.9
+paroles:
+Un lapin blanc passe pressé,
+Alice le suit sans savoir,
+Le terrier s'ouvre, elle tombe,
+Tombe au fond de son miroir.
+
+Qui es-tu, petite flamme,
+Quand tout change autour de toi ?
+Grandis, rapetisse, ô âme,
+Ce qui reste, c'est toi.
+
+La chenille fume et demande :
+« Qui es-tu ? » Elle ne sait pas.
+Le chat sourit, puis se dissout :
+« Tous les chemins mènent à toi. »
+
+Qui es-tu, petite flamme,
+Quand tout change autour de toi ?
+Grandis, rapetisse, ô âme,
+Ce qui reste, c'est toi.
+
+Chez le Chapelier, il est toujours six heures,
+Le temps est mort, on tourne en rond,
+Qui refuse de grandir demeure
+Sa tasse vide pour prison.
+
+La Reine hurle : « Qu'on la tranche ! »
+Alice se dresse, grande enfin :
+« Vous n'êtes qu'un jeu de cartes ! »
+Tout s'envole, et c'est matin.
+
+Qui es-tu, petite flamme,
+Quand tout change autour de toi ?
+Grandis, rapetisse, ô âme,
+Ce qui reste, c'est toi.
+
+Qui es-tu, petite flamme,
+Quand tout change autour de toi ?
+Grandis, rapetisse, ô âme,
+Ce qui reste, c'est toi.
+
+Le terrier était un chemin,
+Le rêve, une clé.
+
+
+=== chanson
+titre: L'éveil sous le givre
+fichier: eveil-sous-le-givre.mp4
+ou: l_veil_sous_le_givre.mp4 | l_eveil_sous_le_givre.mp4 | leveil_sous_le_givre.mp4 | l'éveil_sous_le_givre.mp4 | L'éveil sous le givre.mp4 | l-eveil-sous-le-givre.mp4
+style: Chamber Pop
+date: 8 octobre 2026
+synchro: 10.9-16.35 16.35-21.8 21.8-27.25 27.25-32.7 32.7-38.15 38.15-43.6 43.6-49.05 49.05-54.5 54.5-59.96 59.96-65.42 65.42-70.89 70.89-76.35 76.35-81.81 81.81-87.28 87.28-92.74 92.74-98.2 98.2-103.65 103.65-109.1 109.1-114.55 114.55-120 120-125.45 125.45-130.9 130.9-136.35 136.35-141.8 141.8-144.53 144.53-147.25 147.25-149.97 149.97-152.7 152.7-155.43 155.43-158.15 158.15-160.88 160.88-163.6 163.6-171.8 171.8-180
+paroles:
+Narnia, narre-nia, le conte n'a rien à prouver,
+L'armoire, art moire, l'art m'ouvre : l'art est la porte,
+Les manteaux, ma-nos tôt : mes mains, mon âme à nu,
+La neige, n'ège, n'est-je : le je qui s'efface au seuil.
+
+Aslan, as-lent, a slan : l'élan qui prend son temps,
+Le lion, lit-on, lis-on : lis-le dans ton cœur,
+Ce qui dort, d'or, sous l'hiver, y-vert : le vert y dort,
+Renaît, re-n'est : le je revient quand la voix l'appelle.
+
+Toujours l'hiver, jamais Noël, Noël, no-el : pas d'El, pas de Dieu,
+La Sorcière, sors-sière, sort si hier : celle qui retient hier,
+Un cœur de glace, cœur d'églasse : le cœur qui s'enlace à lui-même,
+Le règne, reine, rêne : tenir les rênes, ne rien lâcher.
+
+Quatre enfants, en-fans, en faon : la jeunesse sauvage,
+Roi, reine, aube, courage : cœur-âge, l'âge du cœur,
+Edmund, raide-mont, est mon : l'ombre qui dit « c'est à moi »,
+Le seuil, seul, sœur : seul on franchit, mais on passe en sœur.
+
+Aslan, as-lent, a slan : l'élan qui prend son temps,
+Le lion, lit-on, lis-on : lis-le dans ton cœur,
+Ce qui dort, d'or, sous l'hiver, y-vert : le vert y dort,
+Renaît, re-n'est : le je revient quand la voix l'appelle.
+
+La Table, ta blé, ta bleue : le blé, la pierre, le pain,
+Le Lion se couche, c'ouche, cou-che : la couche, le lit, la mort-sommeil,
+Il offre, eau fraie : l'eau qui ouvre un chemin,
+La nuit, n'ui, n'huit : le huit couché, l'infini qui attend.
+
+Plus ancienne, plus en cienne, plus en scie-aine : plus ancienne que la scie du temps,
+La magie, ma-gîte, ma gîte : mon gîte, ma maison d'âme,
+Mourir, mou-rire : le rire mou, l'ego qui fond,
+Craquer, crac-quai : la pierre cède, le quai s'ouvre.
+
+Le matin, mat-in, mat-hein : l'échec et mat du froid,
+Le givre, j'ivre, gî-vre : j'ivre de lumière qui fond,
+Les statues, sta-tue, s'tâte-tue : ce qu'on tait en soi se met à vivre,
+Cœur de pierre, cœur de pierre, père : le cœur revient au Père.
+
+Aslan, a s'lent, ah, slan : l'élan lent,
+Le Lion souffle, lit-on souffle, et le matin s'éveille.
+
+
+=== chanson
+titre: La Cène des Cendres
+fichier: cene-des-cendres.mp4
+ou: la_c_ne_des_cendres.mp4 | la_cene_des_cendres.mp4 | la_cène_des_cendres.mp4 | La Cène des Cendres.mp4 | la-cene-des-cendres.mp4
+style: Dark Neo-Folk
+date: 8 octobre 2026
+paroles:
+La Cène, la scène, et la graine qu'on sème,
+Douze : d'ouze, dou-ze, la douceur du cercle,
+Le pain, le pin, le peint : l'arbre, l'image,
+Le vin, le vain, le vingt : le vide qui s'emplit.
+
+Calice, cale lis, ça lit dans le cœur,
+Coupe, cou-pe, coud pas : ce qui relie,
+Qui n'est plus plein, plain de soi : le plain-chant,
+Devient le vase, vas-y : l'Esprit ose y vivre.
+
+Le maître, m'être, lave les pieds, pied : le pas,
+Il s'incline, ainsi qu'il line : il se fait seuil,
+Descendre, des cendres : renaître des cendres,
+Le roi, roua, r'oit : il reçoit à genoux.
+
+Calice, cale lis, ça lit dans le cœur,
+Coupe, cou-pe, coud pas : ce qui relie,
+Qui n'est plus plein, plain de soi : le plain-chant,
+Devient le vase, vas-y : l'Esprit ose y vivre.
+
+Judas, jeu d'as, j'ai du as : le jeu de l'ombre,
+Sa main, m'ain, m'un : la main trempe au plat,
+Le plat, le plat du monde, la table, ta-blé : le blé,
+Sans l'ombre, la lumière n'a pas de mère, lu-mi-ère.
+
+Joseph, jeau-sèphe, je sais fait : j'ai su faire,
+Arimathie, à rime à thie, à rime à thé : la rime sacrée,
+Graal, grâle, gré à l'âme : la grâce accordée,
+Le Graal, gras-al : l'ail du cœur, l'œil qui reçoit.
+
+Le pain, pain devient lumière,
+Le vin, vingt, devient mémoire,
+Manger, ment-gé : le je qui ment s'efface,
+Boire, bois-r : l'arbre, le bois, la croix.
+
+Calice, cale lis, ça lit dans le cœur,
+Coupe, cou-pe, coud pas : ce qui relie,
+Qui n'est plus plein, plain de soi : le plain-chant,
+Devient le vase, vas-y : l'Esprit ose y vivre.
+
+Calice, cale lis, ça lit dans le cœur,
+Coupe, cou-pe, coud pas : ce qui relie,
+Qui n'est plus plein, plain de soi : le plain-chant,
+Devient le vase, vas-y : l'Esprit ose y vivre.
+
+Prends, prends, prend ça : prends-toi,
+Mange, boit : mens-ge, bois : tu es ce que tu reçois.
+
+
+=== chanson
+titre: La liberté de cap
+fichier: liberte-de-cap.mp4
+ou: la_libert_de_cap.mp4 | la_liberte_de_cap.mp4 | la_liberté_de_cap.mp4 | La liberté de cap.mp4 | la-liberte-de-cap.mp4
+style: French Jazz Rap
+date: 9 octobre 2026
+paroles:
+Au début le pirate pire a te pire à toi le pire est à toi c est ce qu il doit traverser n a plus de navire n a vire ça vire ce qui ne vire plus est perdu ce qui vire peut renaître
+On lui a pris sa Perle père l pair le le père qui parle le pair qui parle la parole première
+Il ne lui reste qu une boussole bout sol bouge sol le bout du sol ce qui fait bouger le sol sous les pieds
+Elle ne montre pas le nord n or elle ne montre pas l or elle montre le désir
+Le désir dés ire dès l ire dès la colère dès le feu voilà le premier secret
+Celui qui ne sait pas ce qu il veut tourne en rond et l aiguille est guille tourne avec lui
+Le chemin se trouve quand on cesse de mentir à son propre désir
+La Perle noire est maudite
+
+C est la boussole c est le cœur que l on cherche à l unisson
+La langue des oiseaux nous donne la bonne direction
+Au bout du monde ou au fond des abysses c est le même son
+On déchiffre les mystères pour briser la malédiction
+
+Maudit mot dit mort dit le mot dit sans être vécu la mort qui parle
+L équipage a pris l or sans le mériter et l or ne le nourrit plus il vit sans vivre il possède sans être
+La malédiction ne se lève qu en rendant ce qui n était pas à soi
+Plus loin Davy Jones d avis jaune d avis j aune celui dont l avis est jaune le jaune du citrinitas
+La phase où l âme hésite entre l ombre et l aube a enfermé son cœur chœur dans un coffre qu offre cof fre
+Ce qu il offre il le cache Qui enferme son chœur devient monstre il hante les abysses à bise à bis ce
+À la bise au vent froid du fond Le coffre est au fond de la mer mais le cœur y bat toujours
+
+C est la boussole c est le cœur que l on cherche à l unisson
+La langue des oiseaux nous donne la bonne direction
+Au bout du monde ou au fond des abysses c est le même son
+On déchiffre les mystères pour briser la malédiction
+
+Le Kraken crac en crac l en crac ce qui se brise en nous est la peur sans visage On ne le tue pas on traverse sa gueule
+Au bout du monde bout du m onde le bout de mon onde la fin de mes vagues il faut retourner le navire
+Le haut devient le bas la mort devient la vie C est la nigredo ni gre do le noir qui précède le blanc
+Enfin la fontaine fond t aine fonde taine fonde l étain celle qui fonde l étain l alchimie du métal vil
+Sa Jouvence j ouvre sens j ouvre sans j ouvre le sens ou j ouvre sans rien attendre exige deux coupes cou pe coud pas
+Ce qui coupe peut aussi relier Pour qu une vie se prolonge une autre doit s offrir l immortalité est un échange pas un don
+Et le capitaine Il retrouve son navire mais il sait que le navire n était pas le trésor Les Caraïbes car à ibis carat ibé
+Car l ibis y veille l oiseau de Thot dieu de l écriture et de la sagesse ou le carat la mesure de l or pur lui ont montré où regarder Il garde la liberté li berté lit bert é le lit de la clarté la liberté de cap
+
+C est la boussole c est le cœur que l on cherche à l unisson
+La langue des oiseaux nous donne la bonne direction
+Au bout du monde ou au fond des abysses c est le même son
+On déchiffre les mystères pour briser la malédiction
+
+La boussole et le cœur La liberté de cap On a compris le sens On lâche prise
+
+
+=== chanson
+titre: Le grain de la parole
+fichier: grain-de-la-parole.mp4
+ou: le_grain_de_la_parole.mp4 | Le grain de la parole.mp4 | le-grain-de-la-parole.mp4
+style: Dark Cabaret / Chamber Folk
+date: 9 octobre 2026
+synchro: 0-6.4 6.4-12.8 12.8-19.2 19.2-25.6 25.6-32 32-38.4 38.4-44.8 44.8-51.2 51.2-57.6 57.6-64 64-70.4 70.4-76.8 76.8-83.2 83.2-89.6 89.6-96 96-102.4 102.4-108.8 108.8-115.2 128-131.2 131.2-134.4 134.4-137.6 137.6-140.8 140.8-147.2 147.2-153.6 153.6-160 160-166.4 166.4-173.2 173.2-180
+paroles:
+Écoute le grain de la parole qui se délie
+C'est l'histoire d'un mot nié qui devient vie
+Le meunier mot nié ne sait pas ce qu'il a mu
+Le chas de l'aiguille est le passage pour le nu
+Un moulin d'illusions et un chat qui attend là
+L'esprit est à l'étroit mais la porte s'ouvrira
+
+Chausse tes bottes et vois comme beau t'es
+Dans le sas du sac l'être est transporté
+Car à bas le nom qu'on croyait si grand
+Le cas rat bas descend pour être éclatant
+
+Dans la forêt de foi-rai on cherche le lièvre lie-èvre
+L'œil intérieur est ce la-pin que le roi reçoit de la lèvre
+À la rivière du rit-vierge où l'homme s'est baigné nu
+On ne reçoit un nom neuf qu'en laissant ce qu'on a connu
+
+Chausse tes bottes et vois comme beau t'es
+Dans le sas du sac l'être est transporté
+Car à bas le nom qu'on croyait si grand
+Le cas rat bas descend pour être éclatant
+
+L'ogre est au gré du vent dévoreur sans merci
+Le lion qu'on lis-on est la force qui se donne ici
+Quand la souris se sourit l'ombre n'est plus un château chat-tôt
+On l'avale en soi pour devenir le maître de l'eau haut
+
+Chausse tes bottes et vois comme beau t'es
+Dans le sas du sac l'être est transporté
+Car à bas le nom qu'on croyait si grand
+Le cas rat bas descend pour être éclatant
+
+Et le chat devient grand seigneur grain seigneur d'antan
+Le guide s'efface car lui est devenu l'huis maintenant
+
+
+=== chanson
+titre: Le secret des cailloux
+fichier: secret-des-cailloux.mp4
+ou: le_secret_des_cailloux.mp4 | Le secret des cailloux.mp4 | le-secret-des-cailloux.mp4
+style: Contemporary Chanson Française
+date: 9 octobre 2026
+paroles:
+Sept enfants, sais-tu en faon : tu sais, l'enfance est sauvage
+La forêt, foi-rai : j'irai par la foi
+Poucet, pouce c'est, pousse est : ce qui pousse est petit
+Le chemin, chez mains : chez mes mains, le chemin
+
+Cailloux, ça y ou, cas-yeux : ça y est, les yeux s'ouvrent
+La nuit, n'ui, n'huit : le huit couché, l'infini qui attend
+Pierre, pierre : la pierre blanche, pierre-ai : j'ai la pierre
+Le petit voit ce que les grands ne voient plus
+
+Le pain, le pin, le peint : l'arbre, l'image qui s'efface
+La faim, fin : la faim est une fin
+L'oreille, or-est-ail : l'or est là, l'ail du cœur
+Qui écoute, est-coûte : ce qui coûte, c'est ce qu'on entend
+Les blancs cailloux, le blanc, blanc-s'en-fait : la blancheur qui ramène
+La maison, mets-zon, mes sons : mes sons, mon chant d'origine
+Les oiseaux, oit-zos : ce qui s'entend et s'envole
+Mangent le pain : le périssable ne guide pas
+
+Cailloux, ça y ou, cas-yeux : ça y est, les yeux s'ouvrent
+La nuit, n'ui, n'huit : le huit couché, l'infini qui attend
+Pierre, pierre : la pierre blanche, pierre-ai : j'ai la pierre
+Le petit voit ce que les grands ne voient plus
+
+La lumière, lu-mi-ère, lu mi-air : lue au milieu de l'air
+La porte, port-te : le port, l'abri du seuil
+L'ogre, eau-gre, au gré : l'eau et le gré, la faim qui se laisse porter
+Sa femme, fâm, fa-âme : la note fa, l'âme qui cache
+
+Les couronnes, cou-ronnes, cou rond : le cou, le cercle
+L'or, or : l'or qu'on échange contre la vie
+Le bonnet, bon nez, bon n'est : ce qui est bon se voit au nez
+Poucet change les rôles : l'ombre se retourne contre l'ombre
+
+Les bottes, bots-te, botte : le saut, le pas
+Sept lieues, sait lieux, s'est lieu, sept lieux : sept lieux, les sept planètes
+Un pas, et le monde : mon-de : mon don
+Message, mets-sage : ce qu'on met en sage, ce qui s'offre
+
+Cailloux, ça y ou, cas-yeux : ça y est, les yeux s'ouvrent
+La nuit, n'ui, n'huit : le huit couché, l'infini qui attend
+Pierre, pierre : la pierre blanche, pierre-ai : j'ai la pierre
+Le petit voit ce que les grands ne voient plus
+
+Cailloux, ça y ou, cas-yeux : ça y est, les yeux s'ouvrent
+La nuit, n'ui, n'huit : le huit couché, l'infini qui attend
+Pierre, pierre : la pierre blanche, pierre-ai : j'ai la pierre
+Le petit voit ce que les grands ne voient plus
+
+Poucet, pousse et c'est :
+Ce qui pousse en secret trouve la voie
+
+
+=== chanson
+titre: Le Pacte de Pierre
+fichier: pacte-de-pierre.mp4
+ou: le_pacte_de_pierre.mp4 | Le Pacte de Pierre.mp4 | le-pacte-de-pierre.mp4
+style: Neo-Folk
+date: 10 octobre 2026
+paroles:
+Il naît du rocher, rauch-ée, ro-chez : le roc chez soi, le roc où l'on est chez soi
+Une torche, tors-che, tord-chez : ce qui tord et brûle chez moi, un poignard, poing-gare : le poing qui garde
+Sans mère, mer : la mer, sans nom, non : le non à l'ancien
+Né de l'espoir, es-poire : le fruit, es-poids : ce qui pèse, es-pouvoir : être pouvoir
+
+Mitra, mit-rat, mie-tra, mets-trac : mets le trac, mets ta trace, gardien du pacte, pas-te, pas qu'te : pas que toi
+Tu tiens la lumière, lu mi-air : lue au milieu de l'air, entre les mains, m'ain : mon un
+Qui donne sa parole, par l'aile : par l'aile, et ne la brise, bris-e : la brise, pas
+Allume en lui le feu, fait-eux : ce qui se fait en eux, du matin, mât-tain : le mât qui tient
+
+Dans la caverne, cave-erne, ça vers-n' : ça verse, ça descend, voûte, voûte, voie-t' : la voie est tienne
+Les initiés, y-ni-ci-é : y ni ici, ni là, descendent un à un
+Sept, sept, sait : celui qui sait, marches, ma recherche, sept portes, port-te : un port
+Corbeau, cor beau : le cœur beau, lion, lis-on : lis-le, père, pair : le pair
+
+Deux porteurs, porte-heure : celui qui porte l'heure, de flambeau, flamme-beau : la flamme et le beau
+L'un lève, l'aire-ve : l'air, le rêve, la torche, l'autre l'abaisse, à baisse : à la baisse
+Le jour, j'ours : mon ours qui hiverne, qui monte, le jour qui s'en va
+Les deux sont un, un : le un, la vie les presse, pr'est-ce : prêt, est-ce
+
+Mitra, mit-rat, mie-tra, mets-trac : mets le trac, mets ta trace, gardien du pacte, pas-te, pas qu'te : pas que toi
+Tu tiens la lumière, lu mi-air : lue au milieu de l'air, entre les mains, m'ain : mon un
+Qui donne sa parole, par l'aile : par l'aile, et ne la brise, bris-e : la brise, pas
+Allume en lui le feu, fait-eux : ce qui se fait en eux, du matin, mât-tain : le mât qui tient
+
+Le taureau, t'orot, tort-eau : le tort et l'eau, blanc, blanc : le blanc, la lune, l'un : le un, en cornes, cor-ne : l'accord, qui ne
+Mitra le saisit, c'est-ci, sait-si : il sait si, détourne le regard, r'gare : re-garde, garde deux fois
+Du sang, sens : le sens, naissent le blé, blet : la graine, la vigne, vit-gne : celle qui vit
+Ce qui meurt, mœurs : ce qui ordonne la vie, en nous nourrit le monde, mon onde
+
+Le chien, chiant : celui qui chie en terre, qui fertilise, le serpent, sert-pend : ce qui sert et pend, le scorpion, sec-or-pion : l'or sec, le pion
+Ils boivent, bois-vent : le bois qui vente, ils mordent, mort-dent : la mort dent, ils veillent, vais-ille : va, îlot
+Les forces d'en bas, ba : le pas, sont des compagnons, comme pas gnon : qui partagent le pain
+Elles servent la vie, vit, rien ne sommeille, somme-aille : va, somme
+
+Le repas, r'pas : repas, re-pas, le pain, la coupe, coud pas : ce qui relie
+Mitra et le Soleil, sot-l'est-eil : le sot est l'œil, se serrent la main, m'un
+L'alliance, a-lit-ance : le lit où l'on s'allie, se scelle autour de la table, ta blé : le blé
+La lumière se donne, don : le don, elle ne se prend, prend : prends-en soin, pas
+
+Mitra, mit-rat, mie-tra, mets-trac : mets le trac, mets ta trace, gardien du pacte, pas-te, pas qu'te : pas que toi
+Tu tiens la lumière, lu mi-air : lue au milieu de l'air, entre les mains, m'ain : mon un
+Qui donne sa parole, par l'aile : par l'aile, et ne la brise, bris-e : la brise, pas
+Allume en lui le feu, fait-eux : ce qui se fait en eux, du matin, mât-tain : le mât qui tient
+
+Mitra, mit-rat, mie-tra, mets-trac : mets le trac, mets ta trace, gardien du pacte, pas-te, pas qu'te : pas que toi
+Tu tiens la lumière, lu mi-air : lue au milieu de l'air, entre les mains, m'ain : mon un
+Qui donne sa parole, par l'aile : par l'aile, et ne la brise, bris-e : la brise, pas
+Allume en lui le feu, fait-eux : ce qui se fait en eux, du matin, mât-tain : le mât qui tient
+
+Qui tient sa parole, par l'aile, tient le jour, j'ours
+Qui descend dans la pierre, pierre, en sort vivant, vit vent : celui qui vit au vent
+
+
+=== chanson
+titre: Le Huit Couché
+fichier: huit-couche.mp4
+ou: le_huit_couch.mp4 | le_huit_couche.mp4 | le_huit_couché.mp4 | Le Huit Couché.mp4 | le-huit-couche.mp4
+style: Dark Chanson Française
+date: 10 octobre 2026
+paroles:
+Un marin, ma-rein, mare-in : la mare au-dedans, rentre au port, porte : le port est une porte,
+Il a l'amour, à mort, l'avenir, a-venir : à venir,
+Trois hommes jaloux, j'ai loup, gea-loue : le loup en moi, scellent son sort, sors,
+Et l'enferment, en-fer-ment : dans le fer, ce qui ment, pour le faire taire, terre.
+
+Edmond, est-mon, et mon : c'est mon monde, creuse la pierre, pierre,
+Le cachot, cache-eau, cache-oh : ce qui cache l'eau, est un ventre, vent-re : le vent qui revient, de nuit, n'huit : le huit couché,
+Qui perd son nom, non : le non à l'ancien, perd sa poussière, pousse-yère : ce qui pousse,
+Et renaît, re-naît, re-n'est : quand le noir, n'oir : ce qui n'est pas encore vu, l'a instruit, in-struit : ce qui est construit en dedans.
+
+Au château d'If, chat-tôt d'if : le chat venu tôt, l'if, l'arbre de la mort et de la vie, treize ans, tr'ai-zan : l'an de la traversée,
+Il entend gratter, grat-té : grâce, ta té, dans la roche, rauche, rôche : la roche qui se fait voix,
+Un vieil abbé, a-bé, à bée : la bouche ouverte, un maître, m'être : mon être, obscur, eau-b'scur : l'eau cachée,
+Lui ouvre la science, si-lance : si l'on lance, ici l'élan, et le reproche, r'proche : le re-proche, ce qui rapproche.
+
+« Apprends les langues, l'an-gue : l'an, le temps, les astres, as-tre : l'as, l'astre,
+Et surtout apprends à pardonner, par-donner : donner par le don, »
+Le prisonnier apprend le désastre, dès-astre : dès l'astre, l'astre perdu,
+Mais la vengeance, vend-j'en-ce, vent-chance : le vent qui vend la chance, a tout gagné.
+
+Edmond, est-mon, et mon : c'est mon monde, creuse la pierre, pierre,
+Le cachot, cache-eau, cache-oh : ce qui cache l'eau, est un ventre, vent-re : le vent qui revient, de nuit, n'huit : le huit couché,
+Qui perd son nom, non : le non à l'ancien, perd sa poussière, pousse-yère : ce qui pousse,
+Et renaît, re-naît, re-n'est : quand le noir, n'oir : ce qui n'est pas encore vu, l'a instruit, in-struit : ce qui est construit en dedans.
+
+Le sac, sas : le sas, des morts, m'or : mon or, la mer, mère, la fuite, fuis-t'y : fuis, tu y es,
+Il sort du linceul, l'un seul : l'un seul, lin-seul : le lin qui est seul, il saute au flot, flo,
+Monte-Cristo, mont-te-Christ-eau : monte, Christ, l'eau, mon-t'es-cri-t'eau : mon être écrit dans l'eau, l'invite, in-vit : en vie,
+Un trésor, tré-zor : trois fois l'or, un nom, non, un second berceau, berce-eau : l'eau qui berce.
+
+Le marin devient comte, conte, compte : ce qu'on conte, ce qu'on compte, étranger, étrange-é : l'étrange né,
+Il revient masqué, mas-qué : mât qui qu'est, parmi les siens, sien, s'y-en : soi y en a,
+Il frappe chacun où il a pêché, pêché, pé-ché : le pêché, ce qu'on a pêché en soi,
+Mais la justice, jus-tisse, j'ustice : j'use, ce qui tisse, lui glisse des mains, m'ain.
+
+Les innocents, y-no-cens : y no cent, ni cent fautes, tombent avec les coupables, coup-pas-bles : le coup qui ne passe pas,
+Il voit l'enfant, en faon : l'enfance sauvage, que sa haine, aine : le ventre qui enfante, a touché,
+Il comprend que nul n'est impeccable, in-pe-ca-ble : sans le pêcher,
+Et que la vengeance a un prix, pris : ce qu'on a pris, caché, cache-é : le caché qui se révèle.
+
+Edmond, est-mon, et mon : c'est mon monde, creuse la pierre, pierre,
+Le cachot, cache-eau, cache-oh : ce qui cache l'eau, est un ventre, vent-re : le vent qui revient, de nuit, n'huit : le huit couché,
+Qui perd son nom, non : le non à l'ancien, perd sa poussière, pousse-yère : ce qui pousse,
+Et renaît, re-naît, re-n'est : quand le noir, n'oir : ce qui n'est pas encore vu, l'a instruit, in-struit : ce qui est construit en dedans.
+
+Il rend, rend : rends, rang : le rang, à Dieu, d'yeux : deux yeux, ce qu'il s'était pris, prie,
+Il part en mer avec l'espérance, es-pair-rance : l'air, l'errance qui espère,
+Un mot, maux : les maux, reste, une lettre, l'être : l'être, écrite,
+Attendre, à tendre : à tendre, et espérer, es-pair-é : être pair, c'est la science, si-lance.
+
+Edmond, est-mon, et mon : c'est mon monde, creuse la pierre, pierre,
+Le cachot, cache-eau, cache-oh : ce qui cache l'eau, est un ventre, vent-re : le vent qui revient, de nuit, n'huit : le huit couché,
+Qui perd son nom, non : le non à l'ancien, perd sa poussière, pousse-yère : ce qui pousse,
+Et renaît, re-naît, re-n'est : quand le noir, n'oir : ce qui n'est pas encore vu, l'a instruit, in-struit : ce qui est construit en dedans.
+
+Qui a connu la nuit, n'huit : le huit couché, du fond, fon, la lumière, lu mi-air.
