@@ -46,6 +46,10 @@ audio{width:100%;display:block}
 .star.on{color:var(--gold);opacity:1}
 .star:disabled{cursor:default}
 .star:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:6px}
+.thumb{margin-left:10px;background:none;border:1px solid var(--line);border-radius:999px;padding:3px 11px;font:inherit;font-size:.85rem;color:var(--mute);cursor:pointer}
+.thumb.on{border-color:var(--gold);color:var(--ink)}
+.thumb:disabled{cursor:default;opacity:.6}
+.thumb:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 .srow{padding:12px 14px;margin:10px 0;background:var(--panel);border:1px solid var(--line);border-radius:12px}
 .srow b{display:block;font:400 1.1rem/1.3 "Young Serif",Georgia,serif}
 .srow span{color:var(--mute);font-size:.9rem}
@@ -121,9 +125,10 @@ function renderRating(s){
   if(!COUNT_OK||s.kind!=="song"){box.hidden=true;return;}
   box.hidden=false;
   var lab=document.getElementById("rlabel"),st=document.getElementById("stars"),av=document.getElementById("ravg");
-  var mine=0;try{mine=parseInt(localStorage.getItem("note-"+s.id),10)||0;}catch(e){}
+  var saved="";try{saved=localStorage.getItem("note-"+s.id)||"";}catch(e){}
+  var mine=saved==="dislike"?-1:(parseInt(saved,10)||0);
   st.innerHTML="";av.textContent="";
-  var btns=[];
+  var btns=[],down=document.createElement("button");
   function paint(n){btns.forEach(function(b,i){b.classList.toggle("on",i<n);});}
   function showAvg(){
     Promise.all([1,2,3,4,5].map(function(n){return getN(noteKey(s,n));})).then(function(c){
@@ -132,7 +137,17 @@ function renderRating(s){
       av.textContent=r.votes?("Moyenne : "+fmt1(r.avg)+"/5 \u00b7 "+r.votes+" vote"+(r.votes>1?"s":"")):"";
     });
   }
-  function lock(){btns.forEach(function(b){b.disabled=true;});}
+  function setLock(v){btns.forEach(function(b){b.disabled=v;});down.disabled=v;}
+  function send(key,val,thanks,after){
+    setLock(true);lab.textContent="Enregistrement\u2026";
+    aba("hit",key).then(function(){
+      try{localStorage.setItem("note-"+s.id,val);}catch(e){}
+      mine=val==="dislike"?-1:parseInt(val,10);lab.textContent=thanks;if(after)after();
+    }).catch(function(){
+      setLock(false);paint(0);down.classList.remove("on");
+      lab.textContent="Le vote n\u2019a pas pu \u00eatre enregistr\u00e9, r\u00e9essayez plus tard.";
+    });
+  }
   for(var n=1;n<=5;n++){(function(n){
     var b=document.createElement("button");b.type="button";b.className="star";b.textContent="\u2605";
     b.setAttribute("aria-label",n+" \u00e9toile"+(n>1?"s":"")+" sur 5");
@@ -140,23 +155,20 @@ function renderRating(s){
     else{
       b.addEventListener("mouseenter",function(){paint(n);});
       b.addEventListener("focus",function(){paint(n);});
-      b.addEventListener("click",function(){
-        lock();paint(n);lab.textContent="Enregistrement\u2026";
-        aba("hit",noteKey(s,n)).then(function(){
-          try{localStorage.setItem("note-"+s.id,String(n));}catch(e){}
-          mine=n;lab.textContent="Merci ! Votre note : "+n+"/5";showAvg();
-        }).catch(function(){
-          btns.forEach(function(x){x.disabled=false;});paint(0);
-          lab.textContent="La note n\u2019a pas pu \u00eatre enregistr\u00e9e, r\u00e9essayez plus tard.";
-        });
-      });
+      b.addEventListener("click",function(){paint(n);send(noteKey(s,n),String(n),"Merci ! Votre note : "+n+"/5",showAvg);});
     }
     btns.push(b);st.appendChild(b);
   })(n);}
-  st.onmouseleave=function(){paint(mine);};
-  paint(mine);
-  lab.textContent=mine?("Merci ! Votre note : "+mine+"/5"):"Votre avis sur cette chanson ?";
-  if(mine)showAvg();
+  down.type="button";down.className="thumb";down.textContent="\uD83D\uDC4E Je d\u00e9teste";
+  down.setAttribute("aria-label","Je d\u00e9teste cette chanson");
+  if(mine)down.disabled=true;
+  else down.addEventListener("click",function(){down.classList.add("on");send("deteste-"+s.id,"dislike","Merci, votre avis est not\u00e9 : vous n\u2019aimez pas cette chanson.",null);});
+  st.appendChild(down);
+  st.onmouseleave=function(){paint(mine>0?mine:0);};
+  paint(mine>0?mine:0);
+  if(mine===-1)down.classList.add("on");
+  lab.textContent=mine>0?("Merci ! Votre note : "+mine+"/5"):(mine===-1?"Merci, votre avis est not\u00e9 : vous n\u2019aimez pas cette chanson.":"Votre avis sur cette chanson ?");
+  if(mine>0)showAvg();
 }
 function countListen(){
   if(!COUNT_OK||!cur||cur.kind!=="song")return;
@@ -175,20 +187,20 @@ function showStats(){
   function draw(final){
     var r=rows.slice();
     if(final)r.sort(function(a,b){return (b.avg-a.avg)||(b.votes-a.votes)||(b.l-a.l);});
-    var tv=0,tl=0;r.forEach(function(x){tv+=x.votes;tl+=x.l;});
-    sum.textContent=tv+" vote"+(tv>1?"s":"")+" \u00b7 "+tl+" \u00e9coute"+(tl>1?"s":"")+(final?"":" \u00b7 chargement\u2026");
+    var tv=0,tl=0,td=0;r.forEach(function(x){tv+=x.votes;tl+=x.l;td+=x.d;});
+    sum.textContent=tv+" vote"+(tv>1?"s":"")+" \u00b7 "+td+" \uD83D\uDC4E \u00b7 "+tl+" \u00e9coute"+(tl>1?"s":"")+(final?"":" \u00b7 chargement\u2026");
     out.innerHTML=r.map(function(x){
-      var det=[5,4,3,2,1].map(function(n){return n+"\u2605 : "+x.c[n-1];}).join(" \u00b7 ");
+      var det=[5,4,3,2,1].map(function(n){return n+"\u2605 : "+x.c[n-1];}).join(" \u00b7 ")+" \u00b7 \uD83D\uDC4E : "+x.d;
       return '<div class="srow"><b>'+esc(x.s.title)+'</b><span>'+(x.votes?"\u2605 "+fmt1(x.avg)+"/5 \u00b7 "+x.votes+" vote"+(x.votes>1?"s":""):"pas encore de note")+" \u00b7 "+x.l+" \u00e9coute"+(x.l>1?"s":"")+'</span><br><span>'+det+'</span></div>';
     }).join("")+(final&&fail?'<p class="note">Certains compteurs n\u2019ont pas r\u00e9pondu : rechargez la page.</p>':"");
   }
   function next(){
     if(i>=songs.length){draw(true);return;}
     var s=songs[i++];
-    Promise.all([1,2,3,4,5].map(function(n){return getN(noteKey(s,n));}).concat([getN("ecoute-"+s.id)])).then(function(v){
+    Promise.all([1,2,3,4,5].map(function(n){return getN(noteKey(s,n));}).concat([getN("ecoute-"+s.id),getN("deteste-"+s.id)])).then(function(v){
       if(v.some(function(x){return x===null;}))fail++;
       var c=v.slice(0,5).map(function(x){return x||0;}),r=summary(c);
-      rows.push({s:s,c:c,votes:r.votes,avg:r.avg,l:v[5]||0});
+      rows.push({s:s,c:c,votes:r.votes,avg:r.avg,l:v[5]||0,d:v[6]||0});
       draw(false);next();
     });
   }
